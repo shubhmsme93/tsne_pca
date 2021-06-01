@@ -11,4 +11,6 @@ This repository demonstrates reduction of tensorflow extracted 256-dimensionsal 
 Follow the `tsne.ipynb` demo
 
 # Data
-* `site_embeddings.parquet` file exceeds 100MB Github limit and can be distributed separately on demand
+* `sites_from_cifs.csv`: contains atomic site indices, structures IDs, atomic site types from all structures
+* `Ba_*_only.csv`: contains site energies, atomic site class (chalcogens, halogens, tetrels, pnictogens), structure IDs of all structures containing Ba atoms
+* `embeddings.npy`: numpy array containing tensorflow extracted elemental embeddings
